@@ -1,8 +1,21 @@
 # Django minimal Project
 
-Esse e o primeiro capitulo do livro django essencials, 
-ja usando django 2.0, 
-Esse e um codigo de estudo, serve tb de template para novas apps django.
+Nesse repositorio tem um modelo de template minimo para o django,
+Mostrando que e possivel mudar a arquitetura base do startproject do django para 
+modelo diferenciado, ja com uma nova arquitetura de arquivos/pastas
+
 
 usando o comando :
-```django-admin startproject [nome do projeto] --template=minimal_project```
+```shell
+django-admin startproject [nome do projeto] --template=django-minimal
+```
+
+> O template do django direciona a uma pasta, então por exemplo, se tu clonar esse repositorio e quiser usar uma dentro de um outra pasta basta direcionar para a pasta django-minimal
+
+#### Exemplo
+
+```shell
+django-admin startproject site_do_batata --template=../django-minimal-project/django-minimal
+```
+
+
