@@ -1,4 +1,4 @@
-#Django minimal Project#
+# Django minimal Project
 
 Esse e o primeiro capitulo do livro django essencials, 
 ja usando django 2.0, 
