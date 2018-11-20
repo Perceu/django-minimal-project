@@ -18,4 +18,11 @@ django-admin startproject [nome do projeto] --template=django-minimal
 django-admin startproject site_do_batata --template=../django-minimal-project/django-minimal
 ```
 
+#### para rodar o projeto minimo 
+
+```shell
+python site_do_batata/site_do_batata.py runserver
+```
+
+> Basta acessar o 127.0.0.1:8000
 
